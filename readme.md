@@ -14,7 +14,7 @@ NB - this is a quickie, so dont expect predictable results if you dont tag prope
 
 ```bash
 
-npm i profane --save-dev
+npm i happner-profane --save-dev
 
 ```
 
@@ -73,7 +73,7 @@ module.exports = testAnalyzerModule1;
 ```javascript
 
 //instantiate
-var analyzer = require('profane').create();
+var analyzer = require('happner-profane').create();
 
 //require a module (can be any module you have in your project)
 var TestModule1 = analyzer.require('./fixtures/testAnalyzerModule1', true);
